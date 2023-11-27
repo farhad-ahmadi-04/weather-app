@@ -1,0 +1,47 @@
+@import "_varible.scss";
+
+.weather-temp {
+    background-color: $backgroungWeather;
+
+    .search-box {
+        background-color: $bockgroungS;
+        margin: 0 auto;
+
+        .search-icon {
+            height: 34px;
+            cursor: pointer;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .search-input {
+            border-radius: 80px;
+
+            input {
+                border: none;
+                border-bottom: $borderBottom;
+                background: none;
+                outline: none;
+            }
+
+        }
+
+    }
+
+    .result {
+        margin: 0px;
+        padding: 0px;
+        background-color: $backgroundResult;
+
+        >div:first-of-type {
+            border-bottom: $borderBottom;
+        }
+
+        >div:last-of-type {
+            border-bottom: $borderBottom;
+        }
+    }
+}
